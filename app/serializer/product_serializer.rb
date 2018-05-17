@@ -4,7 +4,7 @@ class ProductSerializer
       # start with the open brace to create a valid JSON object
     serialized_post = '{'
 
-    serialized_product += '"id": ' + product.id.to_s + ', '
+    serialized_product += '"price": ' + product.price.to_s + ', '
     serialized_product += '"name": "' + product.name + '", '
     serialized_product += '"description": "' + product.description + '", '
 
